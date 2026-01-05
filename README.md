@@ -125,17 +125,6 @@ alt="joshua khooba" height="40" width="40"/></a>
 
 <hr/>
 
-<div align="center">
-  <h2>🐍 My Contributions 🐍</h2>
-  <br>
-  <!-- Change the URL to the dark mode version of the snake if available -->
-  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/LuckyStraight/LuckyStraight/output/github-contribution-grid-snake-dark.svg" />
-  
-  <br/><br/><br/>
-</div>
-
-<hr/>
-
 
 <h2 align="center">⚡ Stats ⚡</h2>
 <br>
