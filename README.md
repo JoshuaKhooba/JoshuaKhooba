@@ -2,7 +2,7 @@
 
 
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/LuckyStraight/LuckyStraight/main/name.svg" alt="Joshua Khooba" />
+  <img src="https://raw.githubusercontent.com/JoshuaKhooba/JoshuaKhooba/main/name.svg" alt="Joshua Khooba" />
 </h1>
 
 <h3 align="center">
@@ -129,10 +129,10 @@ alt="joshua khooba" height="40" width="40"/></a>
 <h2 align="center">⚡ Stats ⚡</h2>
 <br>
 <div align=center>
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=luckystraight&show_icons=true&locale=en&layout=compact&theme=radical" alt="luckystraight" />
-<img src="https://github-readme-stats.vercel.app/api?username=luckystraight&show_icons=true&rank_icon=github&border_radius=10&locale=en&theme=radical" width="49%" alt="luckystraight" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=JoshuaKhooba&show_icons=true&locale=en&layout=compact&theme=radical" alt="JoshuaKhooba" />
+<img src="https://github-readme-stats.vercel.app/api?username=JoshuaKhooba&show_icons=true&rank_icon=github&border_radius=10&locale=en&theme=radical" width="49%" alt="JoshuaKhooba" />
 <br/>
-<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=luckystraight&theme=radical" width="49%" alt="luckystraight" />
+<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=JoshuaKhooba&theme=radical" width="49%" alt="JoshuaKhooba" />
 </div>
 
 <br/>
