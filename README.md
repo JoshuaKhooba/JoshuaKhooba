@@ -47,7 +47,7 @@ class Joshua extends Developer {
               '🎾 Tennis Club',
               '🏋️ Gym',
               '🚗 Sports Cars',
-              '🐕 Corgi Owner'
+              '🐕 Corgi Owner',
               '🍥 Anime Watcher',
               '🐄 Cow Farmer',
               '🃏 TCG Enthusiast',
@@ -58,7 +58,7 @@ class Joshua extends Developer {
 
     public function getFunFacts(): array {
         return [
-            '🎤 Would have been a standup comedian if I didn't go to college',
+            '🎤 Would have been a standup comedian if I didn\'t go to college',
             '🌶️ Spicy food is always my favourite',
             '🏴‍☠️ Played in a Regional One Piece Tournament (Top 16)',
             '⚡ Played in a Regional Pokémon Tournament (Top 32)',
