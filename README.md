@@ -62,7 +62,7 @@ class Joshua extends Developer {
             '🌶️ Spicy food is always my favourite',
             '🏴‍☠️ Played in a Regional One Piece Tournament (Top 16)',
             '⚡ Played in a Regional Pokémon Tournament (Top 32)',
-            '🎾 Part of the Tennis Team at :contentReference[oaicite:0]{index=0}',
+            '🎾 Part of the Tennis Team at Univeristy of Central Florida',
             '🌎 Traveled to most countries in North and South America',
             
         ];
