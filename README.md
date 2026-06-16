@@ -40,23 +40,31 @@ class Joshua extends Developer {
         ];
     }
 
-    public function getExperience(): array {
-        return [
-            'IT Technician'         => 'Asurion uBreakiFix      (Mar 2026 – Jun 2026)',
-            'VIP Operations Intern' => 'The Walt Disney Company  (Jan 2025 – Jan 2026)',
-            'Corporate Manager'     => 'Lotus Consulting Firm    (May 2024 – Dec 2024)',
-            'Data Analysis Intern'  => 'Orange County Government (Aug 2022 – Jan 2023)',
-        ];
-    }
 
     public function getHobbies(): array {
-        return ['🌱 Gardening', '🎾 Tennis Club', '🏋️ Gym', '🚗 Asian Sports Cars', '🐕 Corgi Owner'];
+        return [
+              '🌱 Gardening',
+              '🎾 Tennis Club',
+              '🏋️ Gym',
+              '🚗 Sports Cars',
+              '🐕 Corgi Owner'
+              '🍥 Anime Watcher',
+              '🐄 Cow Farmer',
+              '🃏 TCG Enthusiast',
+              '🎲 Board Game Enthusiast',
+              '🏰 Disney & Universal Park Goer',
+        ];
     }
 
     public function getFunFacts(): array {
         return [
-            '🎤 Would have been a standup comedian if I didn\'t go to college',
+            '🎤 Would have been a standup comedian if I didn't go to college',
             '🌶️ Spicy food is always my favourite',
+            '🏴‍☠️ Played in a Regional One Piece Tournament (Top 16)',
+            '⚡ Played in a Regional Pokémon Tournament (Top 32)',
+            '🎾 Part of the Tennis Team at :contentReference[oaicite:0]{index=0}',
+            '🌎 Traveled to most countries in North and South America',
+            
         ];
     }
 }
