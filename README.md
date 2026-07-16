@@ -42,6 +42,7 @@ class Joshua extends Developer {
 
     public function getExperience(): array {
         return [
+            'AI Trainer'            => 'LinkedIn                 (Jul 2026 – Present)',
             'IT Technician'         => 'Asurion uBreakiFix      (Mar 2026 – Jun 2026)',
             'VIP Operations Intern' => 'The Walt Disney Company  (Jan 2025 – Jan 2026)',
             'Corporate Manager'     => 'Lotus Consulting Firm    (May 2024 – Dec 2024)',
@@ -78,6 +79,10 @@ class Joshua extends Developer {
 ---
 
 ## 💼 Work Experience
+
+**🤖 AI Trainer** — _LinkedIn_ &nbsp;|&nbsp; Jul 2026 – Present
+
+> Trained AI models by evaluating and annotating complex datasets, improving response quality, factual accuracy &amp; reasoning across large-scale AI infrastructure projects. Validated thousands of AI-generated responses against quality guidelines and collaborated with engineering &amp; research teams to refine annotation standards.
 
 **🔧 IT Technician** — _Asurion uBreakiFix_ &nbsp;|&nbsp; Mar 2026 – Jun 2026
 
@@ -117,19 +122,19 @@ class Joshua extends Developer {
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">🔄 FlowSync</h3>
+      <h3 align="center">🚀 Space Portfolio</h3>
       <p align="center">
-        Full-stack <strong>project management platform</strong> using React, Prisma &amp; PostgreSQL — real-time task collaboration and workflow tracking.
+        Space-themed <strong>personal portfolio site</strong> with an animated 3D starfield, scroll-driven Framer Motion animations &amp; a fully responsive layout.
       </p>
       <p align="center">
-        <a href="https://github.com/JoshuaKhooba/FlowSync">
+        <a href="https://github.com/JoshuaKhooba/Space-Portfolio">
           <img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white" alt="repo"/>
         </a>
       </p>
       <p align="center">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="30" height="30" alt="typescript"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30" height="30" alt="react"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="30" height="30" alt="postgresql"/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="30" height="30" alt="nextjs"/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="30" height="30" alt="tailwind"/>
       </p>
     </td>
   </tr>
@@ -213,19 +218,19 @@ class Joshua extends Developer {
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">🎨 Responsive Portfolio</h3>
+      <h3 align="center">🌱 EcoVest</h3>
       <p align="center">
-        <strong>Fully responsive personal portfolio</strong> built with HTML, CSS &amp; JavaScript — mobile-first design with smooth animations and clean layout.
+        Simulated <strong>stock/ETF trading platform</strong> that analyzes a portfolio and proposes an explainable reallocation toward clean-energy equities &amp; green bonds, with Gemini-powered insights.
       </p>
       <p align="center">
-        <a href="https://github.com/JoshuaKhooba/Responsive-Portfolio">
+        <a href="https://github.com/JoshuaKhooba/EcoVest">
           <img src="https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white" alt="repo"/>
         </a>
       </p>
       <p align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="30" height="30" alt="html"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="30" height="30" alt="css"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="30" height="30" alt="javascript"/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="30" height="30" alt="typescript"/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="30" height="30" alt="nextjs"/>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="30" height="30" alt="tailwind"/>
       </p>
     </td>
   </tr>
