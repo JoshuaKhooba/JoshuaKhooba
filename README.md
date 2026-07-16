@@ -377,10 +377,10 @@ class Joshua extends Developer {
 ## ⚡ GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=JoshuaKhooba&show_icons=true&locale=en&layout=compact&theme=radical&border_radius=10" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=JoshuaKhooba&show_icons=true&locale=en&layout=compact&theme=radical&border_radius=10&cache_seconds=86400" alt="Top Languages" />
   <br/><br/>
-  <img src="https://github-readme-stats.vercel.app/api?username=JoshuaKhooba&show_icons=true&rank_icon=github&border_radius=10&theme=radical" width="49%" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=JoshuaKhooba&theme=radical&border_radius=10" width="49%" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=JoshuaKhooba&show_icons=true&rank_icon=github&border_radius=10&theme=radical&cache_seconds=86400" width="49%" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=JoshuaKhooba&theme=radical&border_radius=10&cache_seconds=86400" width="49%" alt="GitHub Streak" />
 </div>
 
 ---
