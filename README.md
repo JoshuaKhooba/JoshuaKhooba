@@ -51,13 +51,29 @@ class Joshua extends Developer {
     }
 
     public function getHobbies(): array {
-        return ['🌱 Gardening', '🎾 Tennis Club', '🏋️ Gym', '🚗 Asian Sports Cars', '🐕 Corgi Owner'];
+        return [
+              '🌱 Gardening',
+              '🎾 Tennis Club',
+              '🏋️ Gym',
+              '🚗 Sports Cars',
+              '🐕 Corgi Owner',
+              '🍥 Anime Watcher',
+              '🐄 Cow Farmer',
+              '🃏 TCG Enthusiast',
+              '🎲 Board Game Enthusiast',
+              '🏰 Disney & Universal Park Goer',
+        ];
     }
 
     public function getFunFacts(): array {
         return [
             '🎤 Would have been a standup comedian if I didn\'t go to college',
             '🌶️ Spicy food is always my favourite',
+            '🏴‍☠️ Played in a Regional One Piece Tournament (Top 16)',
+            '⚡ Played in a Regional Pokémon Tournament (Top 32)',
+            '🎾 Part of the Tennis Team at Univeristy of Central Florida',
+            '🌎 Traveled to most countries in North and South America',
+            
         ];
     }
 }
@@ -370,7 +386,7 @@ class Joshua extends Developer {
 ---
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=30&center=true&vCenter=true&width=500&height=60&duration=4000&lines=Thanks+For+Visiting!+👋;Let's+build+something+great+together!" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=30&center=true&vCenter=true&width=500&height=60&duration=4000&lines=Thanks+For+Visiting!+👋;Building+the+Future+Together!" />
   <br/>
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Penguin.png" alt="Penguin" width="8%" />
 </div>
