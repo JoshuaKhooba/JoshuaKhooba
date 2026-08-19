@@ -117,6 +117,15 @@ Servlet and JSP app enforcing four distinct database roles — root, client, dat
 
 ## Technical Skills
 
+<table>
+<tr>
+<td width="140" valign="top" align="center">
+
+<img width="120" src="https://raw.githubusercontent.com/JoshuaKhooba/JoshuaKhooba/main/corgi-tech.svg" alt="Corgi mascot wearing glasses, tinkering with a gear" />
+
+</td>
+<td valign="top">
+
 | | |
 | :-- | :-- |
 | **Languages** | TypeScript, JavaScript, Java, Python, Swift, C, SQL |
@@ -125,9 +134,22 @@ Servlet and JSP app enforcing four distinct database roles — root, client, dat
 | **Data** | PostgreSQL, MySQL, Prisma, Supabase, JDBC, schema design and migrations |
 | **Cloud & Tools** | AWS (Cognito, IAM), Vercel, Git, Linux, Docker, Xcode, Figma |
 
+</td>
+</tr>
+</table>
+
 ---
 
 ## Experience
+
+<table>
+<tr>
+<td width="140" valign="top" align="center">
+
+<img width="120" src="https://raw.githubusercontent.com/JoshuaKhooba/JoshuaKhooba/main/corgi-work.svg" alt="Corgi mascot wearing a tie, holding a briefcase" />
+
+</td>
+<td valign="top">
 
 | Role | Organization | Period |
 | :-- | :-- | :-- |
@@ -138,9 +160,22 @@ Servlet and JSP app enforcing four distinct database roles — root, client, dat
 
 Full history and detail on [LinkedIn](https://www.linkedin.com/in/joshua-khooba/).
 
+</td>
+</tr>
+</table>
+
 ---
 
 ## Education & Certifications
+
+<table>
+<tr>
+<td width="140" valign="top" align="center">
+
+<img width="120" src="https://raw.githubusercontent.com/JoshuaKhooba/JoshuaKhooba/main/corgi-grad.svg" alt="Corgi mascot wearing a graduation cap, holding a diploma" />
+
+</td>
+<td valign="top">
 
 **University of Central Florida** — B.S. Information Technology, minor in Computer Science · May 2026
 
@@ -149,9 +184,28 @@ Full history and detail on [LinkedIn](https://www.linkedin.com/in/joshua-khooba/
 - [AWS Academy Graduate: Cloud Security Foundations](https://www.credly.com/go/pOJRHvzj) · May 2026
 - TestOut IT Fundamentals Pro · Dec 2024 · ID 6-3C6-2FT66
 
+</td>
+</tr>
+</table>
+
 ---
 
 ## Beyond the Code
+
+<table>
+<tr>
+<td width="140" valign="top" align="center">
+
+<img width="120" src="https://raw.githubusercontent.com/JoshuaKhooba/JoshuaKhooba/main/corgi-play.svg" alt="Corgi mascot holding a tennis racket" />
+
+</td>
+<td valign="top">
+
+Outside of shipping code: competitive card games, tennis, gardening, and a corgi who thinks he's on the payroll.
+
+</td>
+</tr>
+</table>
 
 <details>
 <summary><b>Competitive card games</b> — regional tournament results</summary>

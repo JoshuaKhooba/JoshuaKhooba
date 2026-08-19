@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="90 30 240 260" width="240" height="260" role="img" aria-label="Corgi mascot wearing a tie, holding a briefcase">
+  <title>Corgi mascot wearing a tie, holding a briefcase</title>
+  <style>
+    .fur      { fill: #E9A23B; }
+    .furDark  { fill: #CE861F; }
+    .furLight { fill: #F6C878; }
+    .cream    { fill: #FCFBF7; }
+    .creamSh  { fill: #EDE8DC; }
+    .toe      { fill: #DCD3C0; }
+    .ink      { fill: #17223B; }
+    .pink     { fill: #F0899B; }
+    .blush    { fill: #F08A5D; opacity: .30; }
+    .tie { fill: #2563EB; } .tieDark { fill: #1740B8; } .case { fill: #6B4A2F; } .caseDark { fill: #543A24; } .clasp { fill: #F6C878; }
+
+    @media (prefers-color-scheme: dark) {
+      .ink { fill: #0B1220; }
+    }
+
+    #scene { animation: bob 4.4s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 100%; }
+    @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+
+    #eyes { animation: blink 4.6s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 50%; }
+    @keyframes blink {
+      0%, 90%, 100% { transform: scaleY(1); }
+      93%           { transform: scaleY(.08); }
+      96%           { transform: scaleY(1); }
+    }
+
+    #tail { animation: wag .78s ease-in-out infinite; transform-box: fill-box; transform-origin: 6% 72%; }
+    @keyframes wag { 0%,100% { transform: rotate(-11deg); } 50% { transform: rotate(10deg); } }
+
+    #earL { animation: twitchL 5.2s ease-in-out infinite; transform-box: fill-box; transform-origin: 70% 96%; }
+    @keyframes twitchL { 0%,72%,100% { transform: rotate(0); } 78% { transform: rotate(-7deg); } 84% { transform: rotate(2deg); } }
+    #earR { animation: twitchR 5.2s ease-in-out infinite .35s; transform-box: fill-box; transform-origin: 30% 96%; }
+    @keyframes twitchR { 0%,72%,100% { transform: rotate(0); } 78% { transform: rotate(7deg); } 84% { transform: rotate(-2deg); } }
+
+    #case { animation: swing 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 0%; }
+    @keyframes swing { 0%,100% { transform: rotate(-4deg); } 50% { transform: rotate(4deg); } }
+
+    @media (prefers-reduced-motion: reduce) {
+      #scene, #eyes, #tail, #earL, #earR , #case { animation: none; }
+    }
+
+  </style>
+
+  <g id="scene">
+    <g id="tail">
+      <path class="fur" d="M236 252C238 222 258 200 282 198 308 196 320 216 314 236 306 258 262 272 236 252Z"/>
+      <path class="furLight" d="M282 198C302 197 316 210 314 226 310 211 298 200 282 198Z"/>
+    </g>
+
+    <g id="earL">
+      <path class="fur" d="M141 118c-11-32-8-64 7-73 15-9 33 16 39 55z"/>
+      <path class="furLight" d="M151 108c-8-24-6-47 4-53 10-6 21 12 26 41z"/>
+    </g>
+    <g id="earR">
+      <path class="fur" d="M259 118c11-32 8-64-7-73-15-9-33 16-39 55z"/>
+      <path class="furLight" d="M249 108c8-24 6-47-4-53-10-6-21 12-26 41z"/>
+    </g>
+
+    <g>
+      <path class="cream" d="M152 268c-4-32 18-56 48-56s52 24 48 56z"/>
+      <path class="creamSh" d="M152 268c1-9 3-17 7-24 6 16 18 26 41 26s35-10 41-26c4 7 6 15 7 24z" opacity=".55"/>
+    </g>
+
+    <ellipse class="fur" cx="200" cy="156" rx="86" ry="74"/>
+    <path class="fur" d="M118 150C106 160 102 178 108 192 116 184 120 166 118 150Z"/>
+    <path class="fur" d="M282 150C294 160 298 178 292 192 284 184 280 166 282 150Z"/>
+
+    <path class="cream" d="M196 92C190 104 185 126 183 156H217C215 126 210 104 204 92 202 88.5 198 88.5 196 92Z"/>
+    <ellipse class="cream" cx="200" cy="186" rx="55" ry="40"/>
+
+    <ellipse class="blush" cx="132" cy="186" rx="17" ry="10"/>
+    <ellipse class="blush" cx="268" cy="186" rx="17" ry="10"/>
+
+    <g id="eyes">
+      <ellipse class="ink" cx="163" cy="150" rx="12" ry="13"/><circle fill="#FFFFFF" cx="158.5" cy="145" r="4.2"/>
+      <ellipse class="ink" cx="237" cy="150" rx="12" ry="13"/><circle fill="#FFFFFF" cx="232.5" cy="145" r="4.2"/>
+    </g>
+
+    <path class="ink" d="M200 165c8.5 0 15 4.5 15 10s-6.5 10-15 10-15-4.5-15-10 6.5-10 15-10z"/>
+    <ellipse fill="#FFFFFF" cx="193.5" cy="169" rx="2.8" ry="1.9" opacity=".48"/>
+
+    <path class="ink" d="M200 195c-11 0-19 5-17 12 2 8 9 12 17 12s15-4 17-12c2-7-6-12-17-12z"/>
+    <path class="pink" d="M200 209c6 0 10 2.5 10 6s-4 6-10 6-10-2.5-10-6 4-6 10-6z"/>
+
+
+    <!-- collar + tie -->
+    <path class="cream" d="M170 226 L200 244 L230 226 L230 240 L200 256 L170 240Z"/>
+    <path class="tie" d="M193 238 L207 238 L212 262 L200 276 L188 262Z"/>
+    <path class="tieDark" d="M193 238 L207 238 L204 248 L196 248Z"/>
+    <!-- paws -->
+    <g id="pawL"><rect class="cream" x="140" y="242" width="30" height="26" rx="13"/></g>
+    <g id="pawR"><rect class="cream" x="230" y="242" width="30" height="26" rx="13"/></g>
+    
+  </g>
+
+  <g transform="translate(258,238)">
+  <g id="case">
+    <rect class="case" x="-24" y="-4" width="48" height="34" rx="5"/>
+    <rect class="caseDark" x="-24" y="-4" width="48" height="8" rx="4"/>
+    <rect class="clasp" x="-6" y="8" width="12" height="8" rx="2"/>
+  </g>
+  </g>
+
+</svg>
