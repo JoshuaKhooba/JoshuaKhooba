@@ -33,104 +33,85 @@ Currently open to new-grad software engineering roles.
 
 ## Selected Work
 
-Every section below expands. Click a project to see how it was actually built.
+<table>
+<tr>
 
-<details>
-<summary><b>FlowSync</b> — Full-stack project management application</summary>
+<td width="50%" valign="top">
 
-<br/>
+### 🗂️ FlowSync
+Kanban board with drag-and-drop status transitions, a Gantt timeline, and cross-entity search over a normalized seven-model schema — four task views backed by one cached data layer.
 
-Kanban board with drag-and-drop status transitions, Gantt timeline, and cross-entity search over a normalized seven-model relational schema. Four interchangeable task views — board, list, table, and timeline — all backed by a single cached data layer.
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="26" height="26" alt="TypeScript"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="26" height="26" alt="Next.js"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="26" height="26" alt="Express"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/prisma/prisma-original.svg" width="26" height="26" alt="Prisma"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="26" height="26" alt="PostgreSQL"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" width="26" height="26" alt="Redux"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="26" height="26" alt="AWS"/>
 
-- Status changes fire a `PATCH` and invalidate a cache tag rather than mutating local state, so the client stays a pure projection of server state
-- Five priority routes render one reusable page component, keeping filter logic in exactly one place
-- Seed script clears and inserts in explicit dependency order so foreign key constraints never fail mid-run
-- Cognito is the identity source of truth; the API stores a `cognitoId` and never handles passwords
+[![Repo](https://img.shields.io/badge/Repository-2563EB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JoshuaKhooba/FlowSync)
 
-`TypeScript` `Next.js 14` `Express` `Prisma` `PostgreSQL` `Redux Toolkit Query` `AWS Cognito`
+</td>
 
-[Repository](https://github.com/JoshuaKhooba/FlowSync)
+<td width="50%" valign="top">
 
-</details>
+### 🌱 EcoVest
+12-hour hackathon build. Simulates a $10,000 portfolio across 19 equities and ETFs, then proposes an explainable clean-energy reallocation with a generated rationale for every trade.
 
-<details>
-<summary><b>EcoVest</b> — Sustainable investing simulator <i>(live demo)</i></summary>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="26" height="26" alt="TypeScript"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="26" height="26" alt="Next.js"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" width="26" height="26" alt="Tailwind CSS"/> <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" height="26" alt="Google Gemini API"/>
 
-<br/>
+[![Repo](https://img.shields.io/badge/Repository-2563EB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JoshuaKhooba/EcoVest)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-10B981?style=for-the-badge&logo=vercel&logoColor=white)](https://eco-vest-nine.vercel.app/)
 
-Built in a 12-hour hackathon at UCF. Simulates a $10,000 portfolio across 19 equities and ETFs, then proposes an explainable reallocation toward clean-energy holdings with a generated rationale for every trade.
+</td>
 
-- Reallocation engine surfaces its reasoning per position rather than returning an opaque score
-- Unlocks a green-portfolio yield tier once allocation thresholds are met
-- Judged across the Bloomberg FinTech, OneEthos, and Google Gemini tracks
+</tr>
+<tr>
 
-`TypeScript` `Next.js` `Tailwind CSS` `Google Gemini API`
+<td width="50%" valign="top">
 
-[Repository](https://github.com/JoshuaKhooba/EcoVest) · [Live demo](https://eco-vest-nine.vercel.app/)
+### 🚂 Train Yard Simulator
+30 trains as independent threads competing for 10 shared switches across 60 route configurations. A bounded thread pool and ordered lock acquisition keep scheduling deadlock-free under heavy contention.
 
-</details>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="26" height="26" alt="Java"/>
 
-<details>
-<summary><b>Train Yard Simulator</b> — Concurrent systems simulation</summary>
+[![Repo](https://img.shields.io/badge/Repository-2563EB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JoshuaKhooba/train-yard-multithreaded-simulator)
 
-<br/>
+</td>
 
-Models 30 trains as independent threads competing for 10 shared switches across 60 route configurations, driven entirely by CSV input.
+<td width="50%" valign="top">
 
-- Bounded `ExecutorService` thread pool caps concurrency instead of spawning unbounded threads
-- Ordered lock acquisition guarantees deadlock-free scheduling under heavy contention
-- Every switch is individually synchronized, so unrelated routes proceed in parallel
+### 🏰 Disney VIP App
+MVVM iOS app spanning 15+ views for authentication, reservations, events, and guest check-in. Built after a year inside Disney's VIP operations, managing 100+ itineraries a week by hand.
 
-`Java` `Concurrency` `ExecutorService` `Thread synchronization`
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" width="26" height="26" alt="Swift"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/supabase/supabase-original.svg" width="26" height="26" alt="Supabase"/>
 
-[Repository](https://github.com/JoshuaKhooba/train-yard-multithreaded-simulator)
+[![Repo](https://img.shields.io/badge/Repository-2563EB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JoshuaKhooba/Disney-VIP-App)
 
-</details>
+</td>
 
-<details>
-<summary><b>Disney VIP App</b> — Native iOS reservation manager</summary>
+</tr>
+<tr>
 
-<br/>
+<td width="50%" valign="top">
 
-MVVM iOS application spanning 15+ views for authentication, reservations, events, and guest check-in, backed by a hosted Postgres service with row-level access rules.
+### 🚀 Space Portfolio
+Space-themed personal site with an animated 3D starfield, scroll-driven motion, and a fully responsive layout — this is the site powering joshuakhooba.com.
 
-Built after a year inside Disney's VIP operations, where I managed 100+ itineraries a week by hand — the app is the tool I wanted while doing that job.
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="26" height="26" alt="TypeScript"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="26" height="26" alt="Next.js"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/threejs/threejs-original.svg" width="26" height="26" alt="Three.js"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/framermotion/framermotion-original.svg" width="26" height="26" alt="Framer Motion"/>
 
-`Swift` `SwiftUI` `MVVM` `Supabase`
+[![Repo](https://img.shields.io/badge/Repository-2563EB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JoshuaKhooba/Space-Portfolio)
+[![Live Site](https://img.shields.io/badge/Live_Site-10B981?style=for-the-badge&logo=vercel&logoColor=white)](https://joshuakhooba.com)
 
-[Repository](https://github.com/JoshuaKhooba/Disney-VIP-App)
+</td>
 
-</details>
+<td width="50%" valign="top">
 
-<details>
-<summary><b>Space Portfolio</b> — Personal site <i>(powers joshuakhooba.com)</i></summary>
+### 🌐 Three-Tier Web App
+Servlet and JSP app enforcing four distinct database roles — root, client, data entry, accountant — with parameterized statements and stored procedures throughout, plus an audit table logging every privileged operation.
 
-<br/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="26" height="26" alt="Java"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tomcat/tomcat-original.svg" width="26" height="26" alt="Tomcat"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="26" height="26" alt="MySQL"/>
 
-Animated 3D starfield rendered with React Three Fiber, scroll-driven motion, and a fully responsive layout.
+[![Repo](https://img.shields.io/badge/Repository-2563EB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JoshuaKhooba/three-tier-web-app)
 
-`TypeScript` `Next.js 14` `Three.js` `React Three Fiber` `Framer Motion`
+</td>
 
-[Repository](https://github.com/JoshuaKhooba/Space-Portfolio) · [Live site](https://joshuakhooba.com)
-
-</details>
-
-<details>
-<summary><b>Three-Tier Web App</b> — Role-based enterprise application</summary>
-
-<br/>
-
-Servlet and JSP application enforcing four distinct database roles, with parameterized statements and stored procedures throughout.
-
-- Separate credentials per role — root, client, data entry, and accountant — enforced at the database layer, not in application code
-- `PreparedStatement` and `CallableStatement` used exclusively, so no query is assembled by string concatenation
-- Dedicated audit table logs every privileged operation
-
-`Java` `Servlets/JSP` `Tomcat` `MySQL` `JDBC`
-
-[Repository](https://github.com/JoshuaKhooba/three-tier-web-app)
-
-</details>
+</tr>
+</table>
 
 ---
 
