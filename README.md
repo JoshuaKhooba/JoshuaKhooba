@@ -1,10 +1,10 @@
-<a href="https://joshuakhooba.com" title="Meet him properly on my site — he follows your cursor over there">
-  <img align="right" width="380" src="https://raw.githubusercontent.com/JoshuaKhooba/JoshuaKhooba/main/corgi.svg" alt="Animated corgi mascot typing at a laptop" />
-</a>
+<table>
+<tr>
+<td valign="top" width="62%">
 
 # Joshua Khooba
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=20&duration=2600&pause=1000&color=2563EB&center=false&vCenter=true&width=440&height=30&lines=Full-stack+%2B+iOS+engineer;Typed%2C+well-structured+codebases;Open+to+new-grad+roles)](https://git.io/typing-svg)
+<img width="360" src="https://raw.githubusercontent.com/JoshuaKhooba/JoshuaKhooba/main/tagline.svg" alt="Full-stack and iOS engineer. Typed, well-structured codebases. Open to new-grad roles." />
 
 **Software Engineer** · Full-stack and iOS development · Orlando, FL
 
@@ -16,7 +16,16 @@ B.S. Information Technology, minor in Computer Science — University of Central
 
 Currently open to new-grad software engineering roles.
 
-<br clear="all" />
+</td>
+<td align="center" width="38%">
+
+<a href="https://joshuakhooba.com" title="Meet him properly on my site — he follows your cursor over there">
+  <img width="300" src="https://raw.githubusercontent.com/JoshuaKhooba/JoshuaKhooba/main/corgi.svg" alt="Animated corgi mascot typing at a laptop" />
+</a>
+
+</td>
+</tr>
+</table>
 
 ---
 

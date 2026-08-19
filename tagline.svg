@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 30" width="440" height="30" role="img" aria-label="Full-stack and iOS engineer. Typed, well-structured codebases. Open to new-grad roles.">
+  <title>Rotating tagline</title>
+  <style>
+    text {
+      font-family: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+      font-size: 16px;
+      font-weight: 600;
+      fill: #2563EB;
+    }
+    .l1 { animation: msg 9s linear infinite; }
+    .l2 { animation: msg 9s linear infinite -6s; }
+    .l3 { animation: msg 9s linear infinite -3s; }
+    @keyframes msg { 0%, 33.32% { opacity: 1; } 33.33%, 100% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .l1, .l2, .l3 { animation: none; }
+      .l2, .l3 { opacity: 0; }
+    }
+  </style>
+  <text class="l1" x="0" y="21">Full-stack + iOS engineer</text>
+  <text class="l2" x="0" y="21" opacity="0">Typed, well-structured codebases</text>
+  <text class="l3" x="0" y="21" opacity="0">Open to new-grad roles</text>
+</svg>
