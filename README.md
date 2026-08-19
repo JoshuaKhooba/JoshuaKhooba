@@ -4,6 +4,8 @@
 
 # Joshua Khooba
 
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=20&duration=2600&pause=1000&color=2563EB&center=false&vCenter=true&width=440&height=30&lines=Full-stack+%2B+iOS+engineer;Typed%2C+well-structured+codebases;Open+to+new-grad+roles)](https://git.io/typing-svg)
+
 **Software Engineer** · Full-stack and iOS development · Orlando, FL
 
 B.S. Information Technology, minor in Computer Science — University of Central Florida, May 2026. I build full-stack web applications and native iOS apps, with a focus on typed, well-structured codebases and clean data modeling.
