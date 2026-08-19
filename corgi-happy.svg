@@ -16,13 +16,16 @@
     .pink     { fill: #F0899B; }
     .blush    { fill: #F08A5D; opacity: .30; }
     .spark    { fill: #F6C878; }
-    .bubbleBg { fill: #FFFFFF; stroke: #D8DEE9; stroke-width: 2; }
+    /* Bubble stays a fixed white-on-blue card regardless of color scheme —
+       embedded as a raw image on a README, it has no idea whether it's
+       sitting on a light or dark page background, so a scheme-matched
+       fill (e.g. near-black-on-near-black) can go almost invisible. A
+       white card with a solid blue border reads clearly on anything. */
+    .bubbleBg { fill: #FFFFFF; stroke: #2563EB; stroke-width: 2; }
     .bubbleTx { fill: #17223B; font-family: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace; font-size: 15px; font-weight: 600; }
 
     /* ---- dark mode ---- */
     @media (prefers-color-scheme: dark) {
-      .bubbleBg { fill: #161B22; stroke: #30363D; }
-      .bubbleTx { fill: #E6EDF3; }
       .ink      { fill: #0B1220; }
       .spark    { fill: #F6C878; }
     }
