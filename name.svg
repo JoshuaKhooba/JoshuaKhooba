@@ -12,20 +12,30 @@
     .cmd     { fill: #2563EB; }
     .name    { font-family: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace; font-size: 26px; font-weight: 700; fill: #E6EDF3; }
 
-    #type {
-      animation: reveal 3.6s steps(15, end) 1 both;
+    /* Reveal via a clipPath rect's width rather than the clip-path shorthand's
+       inset() function — animating a plain geometry attribute repaints more
+       cheaply and avoids the jank some browsers show re-parsing inset() each
+       step. A short delay (with fill:backwards, included in "both") holds the
+       fully-hidden frame until the image has actually decoded, so viewers
+       never catch it partway through on first paint. */
+    #revealRect {
+      animation: reveal 3.2s steps(46, end) .25s 1 both;
     }
-    @keyframes reveal { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+    @keyframes reveal { from { width: 0; } to { width: 260px; } }
 
-    #cursor { animation: blink 1s step-end 3.6s infinite; }
+    #cursor { animation: blink 1s step-end 3.45s infinite; }
     @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
 
     a { cursor: pointer; }
 
     @media (prefers-reduced-motion: reduce) {
-      #type { animation: none; clip-path: inset(0 0 0 0); }
+      #revealRect { animation: none; width: 260px; }
     }
   </style>
+
+  <clipPath id="nameClip">
+    <rect id="revealRect" x="0" y="0" width="0" height="92"/>
+  </clipPath>
 
   <rect class="win" x="1" y="1" width="518" height="90" rx="10"/>
   <rect class="bar" x="1" y="1" width="518" height="26" rx="10"/>
@@ -35,7 +45,7 @@
   <circle class="dotG" cx="52" cy="14" r="5"/>
   <text class="path" x="260" y="18" text-anchor="middle">whoami — joshuakhooba.com</text>
 
-  <g id="type">
+  <g clip-path="url(#nameClip)">
     <text class="prompt" x="18" y="52"><tspan class="sigil">➜</tspan> <tspan class="cmd">~</tspan> <tspan fill="#E6EDF3">whoami</tspan></text>
     <text class="name" x="18" y="82">Joshua Khooba</text>
   </g>
