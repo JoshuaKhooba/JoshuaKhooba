@@ -2,7 +2,9 @@
 <tr>
 <td valign="top" width="62%">
 
-# Joshua Khooba
+<a href="https://joshuakhooba.com" title="whoami → joshuakhooba.com">
+  <img width="480" src="https://raw.githubusercontent.com/JoshuaKhooba/JoshuaKhooba/main/name.svg" alt="Joshua Khooba" />
+</a>
 
 <img width="360" src="https://raw.githubusercontent.com/JoshuaKhooba/JoshuaKhooba/main/tagline.svg" alt="Full-stack and iOS engineer. Typed, well-structured codebases. Open to new-grad roles." />
 

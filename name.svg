@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 92" width="520" height="92" role="img" aria-label="Joshua Khooba — terminal prompt, click to visit joshuakhooba.com">
+  <title>Joshua Khooba</title>
+  <style>
+    .win     { fill: #0D1117; stroke: #30363D; stroke-width: 1.5; }
+    .dotR    { fill: #FF5F56; }
+    .dotY    { fill: #FFBD2E; }
+    .dotG    { fill: #27C93F; }
+    .bar     { fill: #161B22; }
+    .path    { font-family: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace; font-size: 11px; fill: #6E7681; }
+    .prompt  { font-family: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace; font-size: 15px; font-weight: 600; }
+    .sigil   { fill: #3FB950; }
+    .cmd     { fill: #2563EB; }
+    .name    { font-family: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace; font-size: 26px; font-weight: 700; fill: #E6EDF3; }
+
+    #type {
+      animation: reveal 3.6s steps(15, end) 1 both;
+    }
+    @keyframes reveal { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+
+    #cursor { animation: blink 1s step-end 3.6s infinite; }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+
+    a { cursor: pointer; }
+
+    @media (prefers-reduced-motion: reduce) {
+      #type { animation: none; clip-path: inset(0 0 0 0); }
+    }
+  </style>
+
+  <rect class="win" x="1" y="1" width="518" height="90" rx="10"/>
+  <rect class="bar" x="1" y="1" width="518" height="26" rx="10"/>
+  <rect class="bar" x="1" y="14" width="518" height="13"/>
+  <circle class="dotR" cx="18" cy="14" r="5"/>
+  <circle class="dotY" cx="35" cy="14" r="5"/>
+  <circle class="dotG" cx="52" cy="14" r="5"/>
+  <text class="path" x="260" y="18" text-anchor="middle">whoami — joshuakhooba.com</text>
+
+  <g id="type">
+    <text class="prompt" x="18" y="52"><tspan class="sigil">➜</tspan> <tspan class="cmd">~</tspan> <tspan fill="#E6EDF3">whoami</tspan></text>
+    <text class="name" x="18" y="82">Joshua Khooba</text>
+  </g>
+  <rect id="cursor" x="223" y="63" width="12" height="24" fill="#2563EB" opacity="0"/>
+</svg>

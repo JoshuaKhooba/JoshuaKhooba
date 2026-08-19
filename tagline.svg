@@ -7,16 +7,43 @@
       font-weight: 600;
       fill: #2563EB;
     }
-    .l1 { animation: msg 9s linear infinite; }
-    .l2 { animation: msg 9s linear infinite -6s; }
-    .l3 { animation: msg 9s linear infinite -3s; }
-    @keyframes msg { 0%, 33.32% { opacity: 1; } 33.33%, 100% { opacity: 0; } }
+    .cur { fill: #2563EB; }
+
+    /* each line owns one third of a shared 9s loop */
+    .l1 { animation: vis 9s linear infinite; }
+    .l2 { animation: vis 9s linear infinite -6s; }
+    .l3 { animation: vis 9s linear infinite -3s; }
+    @keyframes vis { 0%, 33.32% { opacity: 1; } 33.33%, 100% { opacity: 0; } }
+
+    /* typewriter reveal, sized to each line's own character count, synced to the same offsets */
+    #type1 { animation: type1 9s steps(25, end) infinite; }
+    #type2 { animation: type2 9s steps(32, end) infinite -6s; }
+    #type3 { animation: type3 9s steps(22, end) infinite -3s; }
+    @keyframes type1 { 0% { clip-path: inset(0 100% 0 0); } 20% { clip-path: inset(0 0 0 0); } 100% { clip-path: inset(0 0 0 0); } }
+    @keyframes type2 { 0% { clip-path: inset(0 100% 0 0); } 24% { clip-path: inset(0 0 0 0); } 100% { clip-path: inset(0 0 0 0); } }
+    @keyframes type3 { 0% { clip-path: inset(0 100% 0 0); } 18% { clip-path: inset(0 0 0 0); } 100% { clip-path: inset(0 0 0 0); } }
+
+    .cur { animation: blink .9s step-end infinite; }
+
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+
     @media (prefers-reduced-motion: reduce) {
-      .l1, .l2, .l3 { animation: none; }
+      .l1, .l2, .l3, #type1, #type2, #type3, .cur { animation: none; }
       .l2, .l3 { opacity: 0; }
+      #type1, #type2, #type3 { clip-path: inset(0 0 0 0); }
     }
   </style>
-  <text class="l1" x="0" y="21">Full-stack + iOS engineer</text>
-  <text class="l2" x="0" y="21" opacity="0">Typed, well-structured codebases</text>
-  <text class="l3" x="0" y="21" opacity="0">Open to new-grad roles</text>
+
+  <g class="l1">
+    <g id="type1"><text x="0" y="21">Full-stack + iOS engineer</text></g>
+    <rect class="cur" x="244" y="4" width="8" height="20"/>
+  </g>
+  <g class="l2">
+    <g id="type2"><text x="0" y="21">Typed, well-structured codebases</text></g>
+    <rect class="cur" x="311" y="4" width="8" height="20"/>
+  </g>
+  <g class="l3">
+    <g id="type3"><text x="0" y="21">Open to new-grad roles</text></g>
+    <rect class="cur" x="215" y="4" width="8" height="20"/>
+  </g>
 </svg>
